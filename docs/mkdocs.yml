@@ -1,0 +1,39 @@
+site_name: "cedh-proxy"
+site_description: "CLI for proxying a lot of cedh decks with mpcfill and makeplayingcards"
+site_url: "https://znd4.github.io/cedh-proxy"
+repo_url: "https://github.com/znd4/cedh-proxy"
+repo_name: "znd4/cedh-proxy"
+site_dir: "site"
+
+nav:
+  - Home:
+    - Overview: index.md
+    - Changelog: changelog.md
+  - Development:
+    - Contributing: contributing.md
+    - Code of Conduct: code_of_conduct.md
+
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    accent: teal
+  font:
+    text: Open Sans
+    code: Fira Code
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.emoji
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - toc:
+      permalink: "#"
+
+plugins:
+  - search
